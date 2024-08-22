@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <main>
+    <h1>Cadastro de Pessoas</h1>
+    
+    <form id="cadastroForm">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      
+      <label for="idade">Idade:</label>
+      <input type="number" id="idade" name="idade" required>
+      
+      <label for="dataNascimento">Data de Nascimento:</label>
+      <input type="date" id="dataNascimento" name="dataNascimento" required>
+      
+      <label for="cidade">Cidade:</label>
+      <input type="text" id="cidade" name="cidade" required>
+      
+      <button type="submit" class="center-button"><i class="fas fa-user-plus"></i> Cadastrar</button>
+    </form>
+  
+    <table id="pessoasTable">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Data de Nascimento</th>
+          <th>Cidade</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    
+    <button class="download-excel center-button"><i class="fas fa-file-excel"></i> Download Excel</button>
+
+  </main>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
+
