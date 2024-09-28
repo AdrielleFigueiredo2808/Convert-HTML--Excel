@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 30px 0 0 0; 
-  background-color: #ffa1d8; 
+  background-color: #8A2BE2; 
 }
 
 main {
@@ -35,7 +35,7 @@ input {
 button {
   padding: 8px 12px; 
   border: none;
-  background-color: #FB0881;
+  background-color: #8A2BE2;
   color: white;
   cursor: pointer;
   font-size: 14px;
@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-  background-color: #e0066c;
+  background-color: #8A2BE2;
 }
 
 button.center-button {
@@ -56,7 +56,7 @@ button.center-button {
   margin-top: 10px; 
   padding: 8px 12px; 
   border: none; 
-  background-color: #FB0881; 
+  background-color: #8A2BE2;
   color: #ffffff; 
   border-radius: 4px;
   cursor: pointer;
@@ -74,7 +74,7 @@ table {
 }
 
 table, th, td {
-  border: 2px solid #FB0881; 
+  border: 2px solid #8A2BE2;
 }
 
 th, td {
